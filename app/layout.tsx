@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ClipDem — Video Downloader",
+  title: "Elloaps — Video Downloader",
   description: "Paste a YouTube link, choose your format and quality, and download in seconds.",
 };
 

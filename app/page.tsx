@@ -403,7 +403,7 @@ export default function Home() {
 
               <div>
                 <div className="text-lg font-bold tracking-tight">
-                  Clip<span className="text-red-500">Dem</span>
+                  Ello<span className="text-red-500">aps</span>
                 </div>
 
                 <div className="text-[10px] text-[var(--text-tertiary)] uppercase tracking-widest">
@@ -734,7 +734,7 @@ export default function Home() {
         >
           <div className="text-center mb-14">
             <span className="text-xs uppercase tracking-[.2em] text-red-500 font-semibold">
-              Why ClipDem
+              Why Elloaps
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold mt-4 tracking-tight">
               Everything you need.
@@ -819,7 +819,7 @@ export default function Home() {
       <footer className="relative z-10 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="text-sm text-[var(--text-quaternary)]">© 2026 ClipDem. All rights reserved.</div>
+            <div className="text-sm text-[var(--text-quaternary)]">© 2026 Elloaps. All rights reserved.</div>
 
             <div className="flex items-center gap-5 text-xs text-[var(--text-quaternary)]">
               <a href="#" className="hover:text-[var(--text-secondary)] transition">
