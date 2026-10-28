@@ -441,8 +441,8 @@ export default function Home() {
 
       <main className="relative z-10">
         {/* Hero */}
-        <section className="max-w-5xl mx-auto px-5 sm:px-8 pt-20 sm:pt-28 pb-20 text-center">
-          <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full border border-[var(--border)] bg-[var(--overlay-1)] text-xs text-[var(--text-secondary)] mb-8">
+        <section className="max-w-5xl mx-auto px-5 sm:px-8 pt-12 sm:pt-28 pb-20 text-center">
+          <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full border border-[var(--border)] bg-[var(--overlay-1)] text-xs text-[var(--text-secondary)] mb-5 sm:mb-8">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
@@ -450,7 +450,7 @@ export default function Home() {
             Fast & simple video downloads
           </div>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-[-0.04em] leading-[1.05] max-w-4xl mx-auto">
+          <h1 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-[-0.04em] leading-[1.1] sm:leading-[1.05] max-w-4xl mx-auto">
             Download videos.
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-400 to-orange-400">
@@ -458,12 +458,12 @@ export default function Home() {
             </span>
           </h1>
 
-          <p className="mt-7 text-base sm:text-lg text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 sm:mt-7 text-sm sm:text-lg text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed">
             Paste a link from YouTube, TikTok, Instagram, Facebook or X, pick a
             resolution, and download it straight to your device.
           </p>
 
-          <div className="mt-12 max-w-3xl mx-auto">
+          <div className="mt-6 sm:mt-12 max-w-3xl mx-auto">
             <div className="bg-[var(--surface)] backdrop-blur-xl border border-[var(--border)] rounded-2xl p-2 shadow-2xl shadow-black/30 transition focus-within:shadow-[0_0_0_1px_rgba(239,68,68,.5),0_0_35px_rgba(239,68,68,.08)]">
               <div className="flex flex-col sm:flex-row gap-2">
                 <div className="flex-1 flex items-center px-4 gap-3">
