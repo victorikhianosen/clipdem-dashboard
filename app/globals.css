@@ -1,8 +1,41 @@
 @import "tailwindcss";
 
 :root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --bg-page: #09090b;
+  --grid-line: rgba(255, 255, 255, 0.025);
+  --surface: rgba(24, 24, 27, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.08);
+  --overlay-1: rgba(255, 255, 255, 0.04);
+  --overlay-2: rgba(255, 255, 255, 0.08);
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #71717a;
+  --text-quaternary: #52525b;
+  --btn-primary-bg: #ffffff;
+  --btn-primary-text: #000000;
+}
+
+:root.light {
   --background: #ffffff;
   --foreground: #171717;
+
+  --bg-page: #f4f4f5;
+  --grid-line: rgba(0, 0, 0, 0.035);
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(0, 0, 0, 0.04);
+  --border: rgba(0, 0, 0, 0.08);
+  --overlay-1: rgba(0, 0, 0, 0.04);
+  --overlay-2: rgba(0, 0, 0, 0.08);
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-tertiary: #71717a;
+  --text-quaternary: #a1a1aa;
+  --btn-primary-bg: #18181b;
+  --btn-primary-text: #ffffff;
 }
 
 @theme inline {
@@ -10,13 +43,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
