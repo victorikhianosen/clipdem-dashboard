@@ -424,7 +424,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <button
                 onClick={toggleTheme}
-                className="w-10 h-10 rounded-xl border border-[var(--border)] bg-[var(--overlay-1)] hover:bg-[var(--overlay-2)] flex items-center justify-center transition"
+                className="w-10 h-10 rounded-xl border border-[var(--border)] bg-[var(--overlay-1)] hover:bg-[var(--overlay-2)] flex items-center justify-center transition cursor-pointer"
                 title="Toggle theme"
                 aria-label="Toggle theme"
               >
