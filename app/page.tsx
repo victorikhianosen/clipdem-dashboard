@@ -396,7 +396,7 @@ export default function Home() {
       <header className="relative z-10 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-5 sm:px-8">
           <div className="h-20 flex items-center justify-between">
-            <a href="#" className="flex items-center gap-3">
+            <a href="/" className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-red-500 flex items-center justify-center shadow-lg shadow-red-500/20">
                 <Play className="w-5 h-5 fill-white" />
               </div>
@@ -821,7 +821,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-sm text-[var(--text-quaternary)]">© 2026 Elloaps. All rights reserved.</div>
 
-            <div className="flex items-center gap-5 text-xs text-[var(--text-quaternary)]">
+            {/* <div className="flex items-center gap-5 text-xs text-[var(--text-quaternary)]">
               <a href="#" className="hover:text-[var(--text-secondary)] transition">
                 Privacy
               </a>
@@ -831,7 +831,7 @@ export default function Home() {
               <a href="#" className="hover:text-[var(--text-secondary)] transition">
                 Contact
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
